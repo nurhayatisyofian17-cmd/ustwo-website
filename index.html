@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>USTWO.CO — Official Store</title>
+  <meta name="description" content="USTWO.CO — simple, modern and curated.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home"><img src="assets/logo.png" alt="USTWO.CO"></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO USTWO.CO</p>
+        <h1>Simple things.<br><span>Made special.</span></h1>
+        <p class="lead">A clean, modern space for curated pieces you’ll want to keep around.</p>
+        <a class="button" href="#shop">Shop now</a>
+      </div>
+      <div class="hero-card">
+        <img src="assets/logo.png" alt="USTWO.CO logo">
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">OUR COLLECTION</p>
+          <h2>Featured products</h2>
+        </div>
+        <p class="muted">Replace these cards with your real products, prices and photos.</p>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <div class="product-image">01</div>
+          <div class="product-info"><h3>Signature Piece</h3><p>Rp 149.000</p></div>
+          <button onclick="addToCart('Signature Piece')">Add to cart</button>
+        </article>
+        <article class="product">
+          <div class="product-image">02</div>
+          <div class="product-info"><h3>Everyday Essential</h3><p>Rp 189.000</p></div>
+          <button onclick="addToCart('Everyday Essential')">Add to cart</button>
+        </article>
+        <article class="product">
+          <div class="product-image">03</div>
+          <div class="product-info"><h3>Limited Drop</h3><p>Rp 229.000</p></div>
+          <button onclick="addToCart('Limited Drop')">Add to cart</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div>
+        <p class="eyebrow">ABOUT US</p>
+        <h2>Less noise.<br>More personality.</h2>
+      </div>
+      <p>USTWO.CO is built around thoughtful design, easy shopping and products that feel personal. This section can be replaced with your actual brand story.</p>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let’s talk.</h2>
+      </div>
+      <div class="contact-box">
+        <p>Instagram: <strong>@ustwo.co</strong></p>
+        <p>WhatsApp: <strong>+62 xxx-xxxx-xxxx</strong></p>
+        <a class="button dark" href="https://wa.me/" target="_blank">Chat on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.png" alt="USTWO.CO">
+    <p>© 2026 USTWO.CO. All rights reserved.</p>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>

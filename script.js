@@ -1,0 +1,1 @@
+function addToCart(name){const t=document.getElementById('toast');t.textContent=name+' added to cart';t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
